@@ -1,6 +1,6 @@
-struct SuitEnhancer {
+public struct SuitEnhancer {
   
-  func armorize(suits: [String: Any]) -> [String] {
+  public func armorize(suits: [String: Any]) -> [String] {
     return suits.keys.map { "🛡"+$0+"🛡" }
   }
   
