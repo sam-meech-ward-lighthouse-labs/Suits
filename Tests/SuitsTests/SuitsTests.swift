@@ -1,5 +1,5 @@
 import XCTest
-@testable import Suits
+import Suits
 
 final class SuitsTests: XCTestCase {
     func testArmorize() {
